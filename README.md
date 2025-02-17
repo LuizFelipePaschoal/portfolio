@@ -3,7 +3,8 @@
 # Portfólio 
 Olá, Bem vindo ao meu projeto de portfólio.
 
-![image](https://github.com/user-attachments/assets/cfd6292e-1ba2-43d7-892c-ba1f20094b5a)
+![image](https://github.com/user-attachments/assets/74523b2b-e996-487b-ac1d-306f6b2c366c)
+
 
 ## Ferramentas utilizadas:
 
