@@ -114,6 +114,12 @@ body {
     width: 50%;
 }
 
+ul {
+    margin: 0;
+    padding-left: 5%;
+}
+
+
 .rodape {
     padding: 24px;
     color: var(--cor-fundo);
