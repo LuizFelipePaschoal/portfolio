@@ -106,7 +106,6 @@ body {
 
 .apresentacao__links__navegacao:hover{
     background-color: var(--cor-destaque);
-    padding: 3%;
     cursor: pointer;
 }
 
@@ -147,4 +146,8 @@ ul {
     .apresentacao__conteudo {
         width: auto;
     }
+}
+
+.experiencia-lista {
+    font-size: 16px;
 }
