@@ -18,6 +18,12 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .cabecalho {
@@ -109,8 +115,9 @@ body {
     cursor: pointer;
 }
 
-.apresentacao-imgagem {
+.apresentacao-imagem {
     width: 50%;
+    max-width: 100%
 }
 
 ul {
@@ -129,25 +136,61 @@ ul {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
-    .cabecalho {
-        padding: 10%;
-    }
+@media (max-width: 768px) {
 
-    .cabecalho__menu {
-        justify-content: center;
-    }
-    
-    .apresentacao {
-        flex-direction: column-reverse;
+    .cabecalho {
         padding: 5%;
     }
 
+    .cabecalho__menu {
+        gap: 20px;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+        gap: 30px;
+    }
+
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__paragrafo {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .apresentacao__imagem {
+        width: 80%;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 100%;
+        font-size: 1rem;
+        padding: 15px;
     }
 }
 
 .experiencia-lista {
     font-size: 16px;
+}
+.apresentacao__conteudo__paragrafo li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.apresentacao__conteudo__paragrafo li h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
 }
